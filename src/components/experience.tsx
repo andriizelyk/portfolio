@@ -43,10 +43,21 @@ export default function Experience() {
               }}
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
-              <p className="font-normal !mt-0">{item.location}</p>
+              <p className="font-normal !mt-0 italic">{item.location}</p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.description}
               </p>
+              <ul className="flex flex-wrap mt-4 pt-4 gap-2 sm:mt-auto">
+                {item.tags.map((tag, index) => (
+                  <li
+                    className="bg-gray-500 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
+                    key={index}
+                  >
+                    {tag}
+                  </li>
+                ))}
+              </ul>
+              
             </VerticalTimelineElement>
           </React.Fragment>
         ))}

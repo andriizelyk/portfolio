@@ -18,7 +18,7 @@ Detailed information about my professional experience, including job titles, com
 Academic Background: Information about my educational background, including degrees earned, institutions attended.
 
 ## Contact
-Social Media Links: Links to my professional social media profiles (e.g., LinkedIn, GitHub, Twitter).
+Social Media Links: Links to my professional social media profiles (e.g., LinkedIn, GitHub).
 
 ## Technologies Used
 Frontend: HTML, CSS, TypeScript, React
