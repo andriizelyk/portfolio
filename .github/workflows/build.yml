@@ -1,0 +1,44 @@
+name: Build and Deploy React App
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build React app
+      run: npm run build
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v2
+      with:
+        aws-access-key-id: ${{ secrets.ACCESS_KEY }}
+        aws-secret-access-key: ${{ secrets.SECRET_KEY }}
+        aws-region: us-east-1
+
+    - name: Sync files to S3
+      run: |
+        aws s3 sync ./dist s3://www.andriizelyk.com --delete
+
+    - name: Invalidate CloudFront 1
+      run: |
+        aws cloudfront create-invalidation --distribution-id ESX964JRQEOLW --paths "/*"
+
+    - name: Invalidate CloudFront 2
+      run: |
+        aws cloudfront create-invalidation --distribution-id E17XNBE2H2JRXN --paths "/*"
