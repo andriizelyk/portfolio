@@ -58,7 +58,7 @@ export default function Intro() {
       >
 
         <span>Hello, I'm Andrii. </span>
-        <span><br/>I'm seasoned Fullstack Developer with more then <span className="font-bold">10 years</span> of experience,<br/> specializing in <span className="font-bold">.NET and React</span>. 
+        <span><br/>I'm seasoned Fullstack Developer with more than <span className="font-bold">10 years</span> of experience,<br/> specializing in <span className="font-bold">.NET and React</span>. 
           <br/>Passionate about building APIs, scalable infrastructure, and dynamic sites and applications, delivering innovative solutions that drive business success.</span>
       </motion.h1>
 
