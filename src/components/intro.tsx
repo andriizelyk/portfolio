@@ -29,8 +29,8 @@ export default function Intro() {
             <img
               src="/portrait.jpeg"
               alt="Andrii portrait"
-              width="200"
-              height="200"
+              width="300"
+              height="300"
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
@@ -52,14 +52,14 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-2xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
 
-        <span>Hello, I'm Andrii. </span>
-        <span><br/>I'm seasoned Fullstack Developer with more than <span className="font-bold">10 years</span> of experience,<br/> specializing in <span className="font-bold">.NET and React</span>. 
-          <br/>Passionate about building APIs, scalable infrastructure, and dynamic sites and applications, delivering innovative solutions that drive business success.</span>
+        <span>Wellcome, I'm Andrii.</span>
+        <span><br/>I'm seasoned Fullstack Developer with over a decade of experience,<br/> specializing in <span className="font-bold">.NET and React</span>. 
+        Passionate about building APIs, scalable infrastructure, and dynamic sites and applications, delivering innovative solutions that drive business success.</span>
       </motion.h1>
 
       <motion.div
@@ -84,7 +84,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/AndriiZelykResume.docx"
+          href="/AndriiZelykResume.pdf"
           download
         >
           Download CV{" "}
