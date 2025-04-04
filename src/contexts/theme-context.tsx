@@ -20,17 +20,17 @@ export default function ThemeContextProvider({
   const toggleTheme = () => {
     if (!isDark) {
       setDark(true);
-      window.localStorage.setItem("isDarkTheme", "false");
+      window.sessionStorage.setItem("isDarkTheme", "false");
     } else {
       setDark(false);
-      window.localStorage.setItem("isDarkTheme", "true");
+      window.sessionStorage.setItem("isDarkTheme", "true");
     }
 
     document.documentElement.classList.toggle("dark");
   };
 
   useEffect(() => {
-    const isDarkTheme = window.localStorage.getItem("isDarkTheme") || "false";
+    const isDarkTheme = window.sessionStorage.getItem("isDarkTheme") || "false";
     
     if (isDarkTheme) {
         setDark(isDarkTheme === "true");

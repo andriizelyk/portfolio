@@ -10,23 +10,23 @@ import { SiAmazonroute53 } from "react-icons/si";
 export const experiencesData = [
   {
       "title": "Senior Software Engineer at ArgusMedia",
-      "location": "Dnipro, UA - Remote",
+      "location": "Remote",
       "description": "In my current role, I am part of the team responsible for the core components of the company, including the main business pipeline, user management, and executing email campaigns to a large subscriber base. Faced with managing a heavy and expensive infrastructure for numerous services, I spearheaded the transition to a serverless architecture. This strategic move significantly reduced our infrastructure costs and provided a more agile solution. As a result, applications responded more quickly to changes in service load, leading to improved efficiency and cost savings. Additionally, I have been involved in disaster recovery implementation, building new and updating existing CI/CD infrastructure and processes, and mentoring newcomers. This role has allowed me to contribute significantly to enhancing the efficiency, security, and resilience of core services to the top.",
       "icon": React.createElement(CgWorkAlt),
-      "date": "03/2022 - present",
+      "date": "03/2022 - 02/2025",
       "tags": ["C#", "SQL", "Dapper", "NUnit", "dotnet core 6+", "ASP .Net MVC", "minial API", "React", "TeamCity", "GitHub actions", "Octopus", "AWS"]
   },
   {
       "title": "Senior Software Engineer at Namecheap",
-      "location": "Dnipro, UA - Remote",
+      "location": "Remote",
       "description": "I worked on developing and improving a platform related to domain operations. Our team was responsible for creating software to replace an existing monolithic legacy platform, ensuring it could efficiently handle the selling of domain names while adhering to all ICANN rules. As a developer, my responsibilities included extending backend features and updating the user interface to enhance functionality and user experience. I also focused on writing unit and integration tests to ensure the reliability and quality of our software. This role required close attention to detail and a deep understanding of both backend processes and frontend design, allowing me to contribute to a robust and user-friendly domain management platform.",
       "icon": React.createElement(SiAmazonroute53),
       "date": "03/2021 - 12/2021",
       "tags": ["C#", "SQL", "EntityFramework", "Dapper", "NUnit", ".Net core", "ASP .Net MVC", "React", "TeamCity", "AWS"]
   },
   {
-      "title": "Software Engineer at SSA",
-      "location": "Dnipro, UA - Remote",
+      "title": "Software Engineer at Amido",
+      "location": "Remote",
       "description": "I was focused on developing and improving the locking system platform for Swedish customers. My responsibilities included gathering requirements to understand the specific needs and designing and implementing a distributed system that met those needs. This involved creating and managing the database, developing the API, and ensuring seamless integration across the system. One of the most challenging tasks was responding to microservices downtime in a timely manner. As the number of services continuously grew, I implemented a dashboard to display the health check results of each microservice. This provided a clear, visible state of each service and its specific resources. With this solution, the team reacts more quickly to emergencies, significantly enhancing the platform's stability. One of the team's accomplishments was successfully integrating one of the services with emergency services. This integration proved invaluable when customer support reported that an ambulance was able to reach a person locked at home and in need of urgent medical help. This experience underscored the real-world impact of our work and highlighted the importance of reliable system design and implementation.",
       "icon": React.createElement(FaHouseLock),
       "date": "11/2019 - 04/2021",
