@@ -27,7 +27,7 @@ export default function Contact() {
     >
       <SectionHeading>Contact me</SectionHeading>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium">
-        <a href="mailto:zelyk.andrii@gmail.com" className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60">
+        <a href="mailto:zelik.andrey@gmail.com" className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60">
           <MdOutlineEmail />
         </a>
         <a href="https://www.linkedin.com/in/andrii-zelyk-5b0bb265" className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60">
